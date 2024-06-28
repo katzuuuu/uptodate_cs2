@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1869,10 +1869,10 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class C_INIT_VelocityRadialRandom {
             public const nint m_nControlPointNumber = 0x1C0; // int32
-            public const nint m_fSpeedMin = 0x1C4; // float32
-            public const nint m_fSpeedMax = 0x1C8; // float32
-            public const nint m_vecLocalCoordinateSystemSpeedScale = 0x1CC; // Vector
-            public const nint m_bIgnoreDelta = 0x1D9; // bool
+            public const nint m_fSpeedMin = 0x1C8; // CPerParticleFloatInput
+            public const nint m_fSpeedMax = 0x320; // CPerParticleFloatInput
+            public const nint m_vecLocalCoordinateSystemSpeedScale = 0x478; // Vector
+            public const nint m_bIgnoreDelta = 0x485; // bool
         }
         // Parent: CParticleFunctionInitializer
         // Fields count: 3
@@ -6036,7 +6036,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleControlPointConfiguration_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-            public const nint m_previewState = 0x20; // 
+            public const nint m_previewState = 0x20; // ParticlePreviewState_t
         }
         // Parent: CParticleFunctionInitializer
         // Fields count: 4

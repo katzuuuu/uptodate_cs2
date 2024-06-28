@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1040,7 +1040,7 @@ pub mod cs2_dumper {
             pub mod CMotionSearchNode {
                 pub const m_children: usize = 0x0; // CUtlVector<CMotionSearchNode*>
                 pub const m_quantizer: usize = 0x18; // CVectorQuantizer
-                pub const m_sampleCodes: usize = 0x38; // CUtlVector<CUtlVector<SampleCo
+                pub const m_sampleCodes: usize = 0x38; // CUtlVector<CUtlVector<SampleCode>>
                 pub const m_sampleIndices: usize = 0x50; // CUtlVector<CUtlVector<int32>>
                 pub const m_selectableSamples: usize = 0x68; // CUtlVector<int32>
             }
@@ -1579,7 +1579,7 @@ pub mod cs2_dumper {
                 pub const m_vInfluenceRotations: usize = 0x20; // Quaternion[3]
                 pub const m_vInfluenceOffsets: usize = 0x50; // Vector[3]
                 pub const m_influenceWeights: usize = 0x74; // float32[3]
-                pub const m_bInfluenceRootTransform: usize = 0x80; // bool[3]
+                pub const m_bInfluenceRootTransform: usize = 0x80; // 
                 pub const m_nInfluences: usize = 0x83; // uint8
                 pub const m_bIgnoreRotation: usize = 0x84; // bool
             }
@@ -2797,7 +2797,7 @@ pub mod cs2_dumper {
                 pub const m_flJumpStartCycle: usize = 0xBC; // float32
                 pub const m_flJumpEndCycle: usize = 0xC0; // float32
                 pub const m_eCorrectionMethod: usize = 0xC4; // JumpCorrectionMethod
-                pub const m_bTranslationAxis: usize = 0xC8; // bool[3]
+                pub const m_bTranslationAxis: usize = 0xC8; // 
                 pub const m_bScaleSpeed: usize = 0xCB; // bool
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -3036,7 +3036,7 @@ pub mod cs2_dumper {
                 pub const m_meshGroups: usize = 0x150; // CUtlVector<CUtlString>
                 pub const m_materialGroups: usize = 0x168; // CUtlVector<MaterialGroup_t>
                 pub const m_nDefaultMeshGroupMask: usize = 0x180; // uint64
-                pub const m_modelSkeleton: usize = 0x188; // 
+                pub const m_modelSkeleton: usize = 0x188; // ModelSkeletonData_t
                 pub const m_remappingTable: usize = 0x230; // CUtlVector<int16>
                 pub const m_remappingTableStarts: usize = 0x248; // CUtlVector<uint16>
                 pub const m_boneFlexDrivers: usize = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4272,7 +4272,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RenderHairStrandInfo_t {
-                pub const m_nGuideHairIndices_nSurfaceTriIndex: usize = 0x0; // 
+                pub const m_nGuideHairIndices_nSurfaceTriIndex: usize = 0x0; // uint32[2]
                 pub const m_vGuideBary_vBaseBary: usize = 0x8; // uint16[4]
                 pub const m_vRootOffset_flLengthScale: usize = 0x10; // uint16[4]
                 pub const m_nPackedBaseUv: usize = 0x18; // uint16[2]

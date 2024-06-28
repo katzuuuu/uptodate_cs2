@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 #pragma once
 
@@ -643,7 +643,7 @@ namespace cs2_dumper {
             namespace FeSimdQuad_t {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[4][4]
                 constexpr std::ptrdiff_t f4Slack = 0x20; // fltx4
-                constexpr std::ptrdiff_t vShape = 0x30; // 
+                constexpr std::ptrdiff_t vShape = 0x30; // FourVectors[4]
                 constexpr std::ptrdiff_t f4Weights = 0xF0; // fltx4[4]
             }
             // Parent: None

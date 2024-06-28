@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1947,10 +1947,10 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_VelocityRadialRandom {
                 pub const m_nControlPointNumber: usize = 0x1C0; // int32
-                pub const m_fSpeedMin: usize = 0x1C4; // float32
-                pub const m_fSpeedMax: usize = 0x1C8; // float32
-                pub const m_vecLocalCoordinateSystemSpeedScale: usize = 0x1CC; // Vector
-                pub const m_bIgnoreDelta: usize = 0x1D9; // bool
+                pub const m_fSpeedMin: usize = 0x1C8; // CPerParticleFloatInput
+                pub const m_fSpeedMax: usize = 0x320; // CPerParticleFloatInput
+                pub const m_vecLocalCoordinateSystemSpeedScale: usize = 0x478; // Vector
+                pub const m_bIgnoreDelta: usize = 0x485; // bool
             }
             // Parent: CParticleFunctionInitializer
             // Fields count: 3
@@ -6114,7 +6114,7 @@ pub mod cs2_dumper {
             pub mod ParticleControlPointConfiguration_t {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_drivers: usize = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-                pub const m_previewState: usize = 0x20; // 
+                pub const m_previewState: usize = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer
             // Fields count: 4

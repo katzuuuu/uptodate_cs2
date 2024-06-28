@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -643,7 +643,7 @@ pub mod cs2_dumper {
             pub mod FeSimdQuad_t {
                 pub const nNode: usize = 0x0; // uint16[4][4]
                 pub const f4Slack: usize = 0x20; // fltx4
-                pub const vShape: usize = 0x30; // 
+                pub const vShape: usize = 0x30; // FourVectors[4]
                 pub const f4Weights: usize = 0xF0; // fltx4[4]
             }
             // Parent: None

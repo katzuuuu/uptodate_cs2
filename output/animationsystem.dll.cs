@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -960,7 +960,7 @@ namespace CS2Dumper.Schemas {
         public static class CMotionSearchNode {
             public const nint m_children = 0x0; // CUtlVector<CMotionSearchNode*>
             public const nint m_quantizer = 0x18; // CVectorQuantizer
-            public const nint m_sampleCodes = 0x38; // CUtlVector<CUtlVector<SampleCo
+            public const nint m_sampleCodes = 0x38; // CUtlVector<CUtlVector<SampleCode>>
             public const nint m_sampleIndices = 0x50; // CUtlVector<CUtlVector<int32>>
             public const nint m_selectableSamples = 0x68; // CUtlVector<int32>
         }
@@ -1499,7 +1499,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vInfluenceRotations = 0x20; // Quaternion[3]
             public const nint m_vInfluenceOffsets = 0x50; // Vector[3]
             public const nint m_influenceWeights = 0x74; // float32[3]
-            public const nint m_bInfluenceRootTransform = 0x80; // bool[3]
+            public const nint m_bInfluenceRootTransform = 0x80; // 
             public const nint m_nInfluences = 0x83; // uint8
             public const nint m_bIgnoreRotation = 0x84; // bool
         }
@@ -2717,7 +2717,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flJumpStartCycle = 0xBC; // float32
             public const nint m_flJumpEndCycle = 0xC0; // float32
             public const nint m_eCorrectionMethod = 0xC4; // JumpCorrectionMethod
-            public const nint m_bTranslationAxis = 0xC8; // bool[3]
+            public const nint m_bTranslationAxis = 0xC8; // 
             public const nint m_bScaleSpeed = 0xCB; // bool
         }
         // Parent: CNmBoolValueNode__CDefinition
@@ -2956,7 +2956,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_meshGroups = 0x150; // CUtlVector<CUtlString>
             public const nint m_materialGroups = 0x168; // CUtlVector<MaterialGroup_t>
             public const nint m_nDefaultMeshGroupMask = 0x180; // uint64
-            public const nint m_modelSkeleton = 0x188; // 
+            public const nint m_modelSkeleton = 0x188; // ModelSkeletonData_t
             public const nint m_remappingTable = 0x230; // CUtlVector<int16>
             public const nint m_remappingTableStarts = 0x248; // CUtlVector<uint16>
             public const nint m_boneFlexDrivers = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4192,7 +4192,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class RenderHairStrandInfo_t {
-            public const nint m_nGuideHairIndices_nSurfaceTriIndex = 0x0; // 
+            public const nint m_nGuideHairIndices_nSurfaceTriIndex = 0x0; // uint32[2]
             public const nint m_vGuideBary_vBaseBary = 0x8; // uint16[4]
             public const nint m_vRootOffset_flLengthScale = 0x10; // uint16[4]
             public const nint m_nPackedBaseUv = 0x18; // uint16[2]

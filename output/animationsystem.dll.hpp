@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-22 20:27:30.275752800 UTC
+// 2024-06-28 20:14:22.970749100 UTC
 
 #pragma once
 
@@ -965,7 +965,7 @@ namespace cs2_dumper {
             namespace CMotionSearchNode {
                 constexpr std::ptrdiff_t m_children = 0x0; // CUtlVector<CMotionSearchNode*>
                 constexpr std::ptrdiff_t m_quantizer = 0x18; // CVectorQuantizer
-                constexpr std::ptrdiff_t m_sampleCodes = 0x38; // CUtlVector<CUtlVector<SampleCo
+                constexpr std::ptrdiff_t m_sampleCodes = 0x38; // CUtlVector<CUtlVector<SampleCode>>
                 constexpr std::ptrdiff_t m_sampleIndices = 0x50; // CUtlVector<CUtlVector<int32>>
                 constexpr std::ptrdiff_t m_selectableSamples = 0x68; // CUtlVector<int32>
             }
@@ -1504,7 +1504,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vInfluenceRotations = 0x20; // Quaternion[3]
                 constexpr std::ptrdiff_t m_vInfluenceOffsets = 0x50; // Vector[3]
                 constexpr std::ptrdiff_t m_influenceWeights = 0x74; // float32[3]
-                constexpr std::ptrdiff_t m_bInfluenceRootTransform = 0x80; // bool[3]
+                constexpr std::ptrdiff_t m_bInfluenceRootTransform = 0x80; // 
                 constexpr std::ptrdiff_t m_nInfluences = 0x83; // uint8
                 constexpr std::ptrdiff_t m_bIgnoreRotation = 0x84; // bool
             }
@@ -2722,7 +2722,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flJumpStartCycle = 0xBC; // float32
                 constexpr std::ptrdiff_t m_flJumpEndCycle = 0xC0; // float32
                 constexpr std::ptrdiff_t m_eCorrectionMethod = 0xC4; // JumpCorrectionMethod
-                constexpr std::ptrdiff_t m_bTranslationAxis = 0xC8; // bool[3]
+                constexpr std::ptrdiff_t m_bTranslationAxis = 0xC8; // 
                 constexpr std::ptrdiff_t m_bScaleSpeed = 0xCB; // bool
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -2961,7 +2961,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_meshGroups = 0x150; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_materialGroups = 0x168; // CUtlVector<MaterialGroup_t>
                 constexpr std::ptrdiff_t m_nDefaultMeshGroupMask = 0x180; // uint64
-                constexpr std::ptrdiff_t m_modelSkeleton = 0x188; // 
+                constexpr std::ptrdiff_t m_modelSkeleton = 0x188; // ModelSkeletonData_t
                 constexpr std::ptrdiff_t m_remappingTable = 0x230; // CUtlVector<int16>
                 constexpr std::ptrdiff_t m_remappingTableStarts = 0x248; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_boneFlexDrivers = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4197,7 +4197,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace RenderHairStrandInfo_t {
-                constexpr std::ptrdiff_t m_nGuideHairIndices_nSurfaceTriIndex = 0x0; // 
+                constexpr std::ptrdiff_t m_nGuideHairIndices_nSurfaceTriIndex = 0x0; // uint32[2]
                 constexpr std::ptrdiff_t m_vGuideBary_vBaseBary = 0x8; // uint16[4]
                 constexpr std::ptrdiff_t m_vRootOffset_flLengthScale = 0x10; // uint16[4]
                 constexpr std::ptrdiff_t m_nPackedBaseUv = 0x18; // uint16[2]
