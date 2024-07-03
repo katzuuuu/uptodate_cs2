@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #pragma once
 
@@ -6588,7 +6588,7 @@ namespace cs2_dumper {
             // Parent: CBaseModelEntity
             // Fields count: 6
             namespace CFuncBrush {
-                constexpr std::ptrdiff_t m_iSolidity = 0x710; // BrushSolidities_e
+                constexpr std::ptrdiff_t m_iSolidity = 0x710; // 
                 constexpr std::ptrdiff_t m_iDisabled = 0x714; // int32
                 constexpr std::ptrdiff_t m_bSolidBsp = 0x718; // bool
                 constexpr std::ptrdiff_t m_iszExcludedClass = 0x720; // CUtlSymbolLarge
@@ -9429,7 +9429,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bCompletedEarly = 0x9C2; // bool
                 constexpr std::ptrdiff_t m_bInterruptSceneFinished = 0x9C3; // bool
                 constexpr std::ptrdiff_t m_bRestoring = 0x9C4; // bool
-                constexpr std::ptrdiff_t m_hNotifySceneCompletion = 0x9C8; // CUtlVector<CHandle<CSceneEntit
+                constexpr std::ptrdiff_t m_hNotifySceneCompletion = 0x9C8; // CUtlVector<CHandle<CSceneEntity>>
                 constexpr std::ptrdiff_t m_hListManagers = 0x9E0; // CUtlVector<CHandle<CSceneListManager>>
                 constexpr std::ptrdiff_t m_iszSoundName = 0x9F8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_iszSequenceName = 0xA00; // CUtlSymbolLarge

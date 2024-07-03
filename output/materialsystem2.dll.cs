@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: materialsystem2.dll
@@ -78,7 +78,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bHasBloomParams = 0x40; // bool
             public const nint m_bloomParams = 0x44; // PostProcessingBloomParameters_t
             public const nint m_bHasVignetteParams = 0xB4; // bool
-            public const nint m_vignetteParams = 0xB8; // PostProcessingVignetteParameters_t
+            public const nint m_vignetteParams = 0xB8; // PostProcessingVignetteParameters
             public const nint m_bHasLocalContrastParams = 0xDC; // bool
             public const nint m_localConstrastParams = 0xE0; // PostProcessingLocalContrastParameters_t
             public const nint m_nColorCorrectionVolumeDim = 0xF4; // int32

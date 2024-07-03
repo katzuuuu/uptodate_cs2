@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -855,7 +855,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // ParticleModelType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }

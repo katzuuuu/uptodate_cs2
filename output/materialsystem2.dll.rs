@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -86,7 +86,7 @@ pub mod cs2_dumper {
                 pub const m_bHasBloomParams: usize = 0x40; // bool
                 pub const m_bloomParams: usize = 0x44; // PostProcessingBloomParameters_t
                 pub const m_bHasVignetteParams: usize = 0xB4; // bool
-                pub const m_vignetteParams: usize = 0xB8; // PostProcessingVignetteParameters_t
+                pub const m_vignetteParams: usize = 0xB8; // PostProcessingVignetteParameters
                 pub const m_bHasLocalContrastParams: usize = 0xDC; // bool
                 pub const m_localConstrastParams: usize = 0xE0; // PostProcessingLocalContrastParameters_t
                 pub const m_nColorCorrectionVolumeDim: usize = 0xF4; // int32

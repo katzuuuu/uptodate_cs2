@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -777,7 +777,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleModelInput {
-            public const nint m_nType = 0x10; // ParticleModelType_t
+            public const nint m_nType = 0x10; // 
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x58; // int32
         }

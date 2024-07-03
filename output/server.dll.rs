@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -6682,7 +6682,7 @@ pub mod cs2_dumper {
             // Parent: CBaseModelEntity
             // Fields count: 6
             pub mod CFuncBrush {
-                pub const m_iSolidity: usize = 0x710; // BrushSolidities_e
+                pub const m_iSolidity: usize = 0x710; // 
                 pub const m_iDisabled: usize = 0x714; // int32
                 pub const m_bSolidBsp: usize = 0x718; // bool
                 pub const m_iszExcludedClass: usize = 0x720; // CUtlSymbolLarge
@@ -9523,7 +9523,7 @@ pub mod cs2_dumper {
                 pub const m_bCompletedEarly: usize = 0x9C2; // bool
                 pub const m_bInterruptSceneFinished: usize = 0x9C3; // bool
                 pub const m_bRestoring: usize = 0x9C4; // bool
-                pub const m_hNotifySceneCompletion: usize = 0x9C8; // CUtlVector<CHandle<CSceneEntit
+                pub const m_hNotifySceneCompletion: usize = 0x9C8; // CUtlVector<CHandle<CSceneEntity>>
                 pub const m_hListManagers: usize = 0x9E0; // CUtlVector<CHandle<CSceneListManager>>
                 pub const m_iszSoundName: usize = 0x9F8; // CUtlSymbolLarge
                 pub const m_iszSequenceName: usize = 0xA00; // CUtlSymbolLarge

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -6583,7 +6583,7 @@ namespace CS2Dumper.Schemas {
         // Parent: CBaseModelEntity
         // Fields count: 6
         public static class CFuncBrush {
-            public const nint m_iSolidity = 0x710; // BrushSolidities_e
+            public const nint m_iSolidity = 0x710; // 
             public const nint m_iDisabled = 0x714; // int32
             public const nint m_bSolidBsp = 0x718; // bool
             public const nint m_iszExcludedClass = 0x720; // CUtlSymbolLarge
@@ -9424,7 +9424,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bCompletedEarly = 0x9C2; // bool
             public const nint m_bInterruptSceneFinished = 0x9C3; // bool
             public const nint m_bRestoring = 0x9C4; // bool
-            public const nint m_hNotifySceneCompletion = 0x9C8; // CUtlVector<CHandle<CSceneEntit
+            public const nint m_hNotifySceneCompletion = 0x9C8; // CUtlVector<CHandle<CSceneEntity>>
             public const nint m_hListManagers = 0x9E0; // CUtlVector<CHandle<CSceneListManager>>
             public const nint m_iszSoundName = 0x9F8; // CUtlSymbolLarge
             public const nint m_iszSequenceName = 0xA00; // CUtlSymbolLarge

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #pragma once
 
@@ -2592,7 +2592,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_baseNameHash = 0xC; // uint32
                 constexpr std::ptrdiff_t m_bHidden = 0x18; // bool
                 constexpr std::ptrdiff_t m_description = 0x20; // CUtlString
-                constexpr std::ptrdiff_t m_physics = 0x28; // CPhysSurfacePropertiesPhysics
+                constexpr std::ptrdiff_t m_physics = 0x28; // 
                 constexpr std::ptrdiff_t m_audioSounds = 0x48; // CPhysSurfacePropertiesSoundNames
                 constexpr std::ptrdiff_t m_audioParams = 0xA0; // CPhysSurfacePropertiesAudio
             }
@@ -4678,7 +4678,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CAnimUpdateSharedData {
                 constexpr std::ptrdiff_t m_nodes = 0x10; // CUtlVector<CSmartPtr<CAnimUpdateNodeBase>>
-                constexpr std::ptrdiff_t m_nodeIndexMap = 0x28; // CUtlHashtable<CAnimNodePath,int32>
+                constexpr std::ptrdiff_t m_nodeIndexMap = 0x28; // 
                 constexpr std::ptrdiff_t m_components = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
                 constexpr std::ptrdiff_t m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 constexpr std::ptrdiff_t m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>

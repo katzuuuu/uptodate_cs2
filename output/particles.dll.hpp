@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #pragma once
 
@@ -782,7 +782,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleModelInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleModelType_t
+                constexpr std::ptrdiff_t m_nType = 0x10; // 
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }

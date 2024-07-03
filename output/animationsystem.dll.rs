@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2667,7 +2667,7 @@ pub mod cs2_dumper {
                 pub const m_baseNameHash: usize = 0xC; // uint32
                 pub const m_bHidden: usize = 0x18; // bool
                 pub const m_description: usize = 0x20; // CUtlString
-                pub const m_physics: usize = 0x28; // CPhysSurfacePropertiesPhysics
+                pub const m_physics: usize = 0x28; // 
                 pub const m_audioSounds: usize = 0x48; // CPhysSurfacePropertiesSoundNames
                 pub const m_audioParams: usize = 0xA0; // CPhysSurfacePropertiesAudio
             }
@@ -4753,7 +4753,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CAnimUpdateSharedData {
                 pub const m_nodes: usize = 0x10; // CUtlVector<CSmartPtr<CAnimUpdateNodeBase>>
-                pub const m_nodeIndexMap: usize = 0x28; // CUtlHashtable<CAnimNodePath,int32>
+                pub const m_nodeIndexMap: usize = 0x28; // 
                 pub const m_components: usize = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
                 pub const m_pParamListUpdater: usize = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>

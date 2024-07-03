@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-06-28 20:14:22.970749100 UTC
+// 2024-07-03 19:09:10.461797100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2587,7 +2587,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_baseNameHash = 0xC; // uint32
             public const nint m_bHidden = 0x18; // bool
             public const nint m_description = 0x20; // CUtlString
-            public const nint m_physics = 0x28; // CPhysSurfacePropertiesPhysics
+            public const nint m_physics = 0x28; // 
             public const nint m_audioSounds = 0x48; // CPhysSurfacePropertiesSoundNames
             public const nint m_audioParams = 0xA0; // CPhysSurfacePropertiesAudio
         }
@@ -4673,7 +4673,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAnimUpdateSharedData {
             public const nint m_nodes = 0x10; // CUtlVector<CSmartPtr<CAnimUpdateNodeBase>>
-            public const nint m_nodeIndexMap = 0x28; // CUtlHashtable<CAnimNodePath,int32>
+            public const nint m_nodeIndexMap = 0x28; // 
             public const nint m_components = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
             public const nint m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
             public const nint m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
