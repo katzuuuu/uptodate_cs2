@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: materialsystem2.dll
@@ -78,7 +78,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bHasBloomParams = 0x40; // bool
             public const nint m_bloomParams = 0x44; // PostProcessingBloomParameters_t
             public const nint m_bHasVignetteParams = 0xB4; // bool
-            public const nint m_vignetteParams = 0xB8; // PostProcessingVignetteParameters
+            public const nint m_vignetteParams = 0xB8; // PostProcessingVignetteParameters_t
             public const nint m_bHasLocalContrastParams = 0xDC; // bool
             public const nint m_localConstrastParams = 0xE0; // PostProcessingLocalContrastParameters_t
             public const nint m_nColorCorrectionVolumeDim = 0xF4; // int32
@@ -159,13 +159,13 @@ namespace CS2Dumper.Schemas {
             public const nint m_intParams = 0x10; // CUtlVector<MaterialParamInt_t>
             public const nint m_floatParams = 0x28; // CUtlVector<MaterialParamFloat_t>
             public const nint m_vectorParams = 0x40; // CUtlVector<MaterialParamVector_t>
-            public const nint m_textureParams = 0x58; // CUtlVector<MaterialParamTexture_t>
+            public const nint m_textureParams = 0x58; // CUtlVector<MaterialParamTexture
             public const nint m_dynamicParams = 0x70; // CUtlVector<MaterialParamBuffer_t>
             public const nint m_dynamicTextureParams = 0x88; // CUtlVector<MaterialParamBuffer_t>
             public const nint m_intAttributes = 0xA0; // CUtlVector<MaterialParamInt_t>
             public const nint m_floatAttributes = 0xB8; // CUtlVector<MaterialParamFloat_t>
             public const nint m_vectorAttributes = 0xD0; // CUtlVector<MaterialParamVector_t>
-            public const nint m_textureAttributes = 0xE8; // CUtlVector<MaterialParamTexture_t>
+            public const nint m_textureAttributes = 0xE8; // CUtlVector<MaterialParamTexture
             public const nint m_stringAttributes = 0x100; // CUtlVector<MaterialParamString_t>
             public const nint m_renderAttributesUsed = 0x118; // CUtlVector<CUtlString>
         }

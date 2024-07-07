@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1579,7 +1579,7 @@ pub mod cs2_dumper {
                 pub const m_vInfluenceRotations: usize = 0x20; // Quaternion[3]
                 pub const m_vInfluenceOffsets: usize = 0x50; // Vector[3]
                 pub const m_influenceWeights: usize = 0x74; // float32[3]
-                pub const m_bInfluenceRootTransform: usize = 0x80; // 
+                pub const m_bInfluenceRootTransform: usize = 0x80; // bool[3]
                 pub const m_nInfluences: usize = 0x83; // uint8
                 pub const m_bIgnoreRotation: usize = 0x84; // bool
             }
@@ -1603,8 +1603,8 @@ pub mod cs2_dumper {
                 pub const m_nBody1: usize = 0x2; // uint16
                 pub const m_nBody2: usize = 0x4; // uint16
                 pub const m_nFlags: usize = 0x6; // uint16
-                pub const m_Frame1: usize = 0x10; // CTransform
-                pub const m_Frame2: usize = 0x30; // CTransform
+                pub const m_Frame1: usize = 0x10; // 
+                pub const m_Frame2: usize = 0x30; // 
                 pub const m_bEnableCollision: usize = 0x50; // bool
                 pub const m_bEnableLinearLimit: usize = 0x51; // bool
                 pub const m_LinearLimit: usize = 0x54; // VPhysXRange_t
@@ -2167,7 +2167,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod SkeletonAnimCapture_t__Bone_t {
                 pub const m_Name: usize = 0x0; // CUtlString
-                pub const m_BindPose: usize = 0x10; // CTransform
+                pub const m_BindPose: usize = 0x10; // 
                 pub const m_nParent: usize = 0x30; // int32
             }
             // Parent: CAnimActionUpdater
@@ -2420,7 +2420,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod PermModelExtPart_t {
-                pub const m_Transform: usize = 0x0; // CTransform
+                pub const m_Transform: usize = 0x0; // 
                 pub const m_Name: usize = 0x20; // CUtlString
                 pub const m_nParent: usize = 0x28; // int32
                 pub const m_refModel: usize = 0x30; // CStrongHandle<InfoForResourceTypeCModel>
@@ -2667,7 +2667,7 @@ pub mod cs2_dumper {
                 pub const m_baseNameHash: usize = 0xC; // uint32
                 pub const m_bHidden: usize = 0x18; // bool
                 pub const m_description: usize = 0x20; // CUtlString
-                pub const m_physics: usize = 0x28; // 
+                pub const m_physics: usize = 0x28; // CPhysSurfacePropertiesPhysics
                 pub const m_audioSounds: usize = 0x48; // CPhysSurfacePropertiesSoundNames
                 pub const m_audioParams: usize = 0xA0; // CPhysSurfacePropertiesAudio
             }
@@ -2797,7 +2797,7 @@ pub mod cs2_dumper {
                 pub const m_flJumpStartCycle: usize = 0xBC; // float32
                 pub const m_flJumpEndCycle: usize = 0xC0; // float32
                 pub const m_eCorrectionMethod: usize = 0xC4; // JumpCorrectionMethod
-                pub const m_bTranslationAxis: usize = 0xC8; // 
+                pub const m_bTranslationAxis: usize = 0xC8; // bool[3]
                 pub const m_bScaleSpeed: usize = 0xCB; // bool
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -3106,7 +3106,7 @@ pub mod cs2_dumper {
             pub mod SkeletonAnimCapture_t__Frame_t {
                 pub const m_flTime: usize = 0x0; // float32
                 pub const m_Stamp: usize = 0x4; // SkeletonAnimCapture_t::FrameStamp_t
-                pub const m_Transform: usize = 0x20; // CTransform
+                pub const m_Transform: usize = 0x20; // 
                 pub const m_bTeleport: usize = 0x40; // bool
                 pub const m_CompositeBones: usize = 0x48; // CUtlVector<CTransform>
                 pub const m_SimStateBones: usize = 0x60; // CUtlVector<CTransform>
@@ -3147,7 +3147,7 @@ pub mod cs2_dumper {
                 pub const m_nNumFrames: usize = 0x18; // int32
                 pub const m_flAverageLinearVelocity: usize = 0x1C; // float32
                 pub const m_flAverageAngularVelocityRadians: usize = 0x20; // float32
-                pub const m_totalDelta: usize = 0x30; // CTransform
+                pub const m_totalDelta: usize = 0x30; // 
             }
             // Parent: None
             // Fields count: 1
@@ -3307,8 +3307,8 @@ pub mod cs2_dumper {
             pub mod CAnimReplayFrame {
                 pub const m_inputDataBlocks: usize = 0x10; // CUtlVector<CUtlBinaryBlock>
                 pub const m_instanceData: usize = 0x28; // CUtlBinaryBlock
-                pub const m_startingLocalToWorldTransform: usize = 0x40; // CTransform
-                pub const m_localToWorldTransform: usize = 0x60; // CTransform
+                pub const m_startingLocalToWorldTransform: usize = 0x40; // 
+                pub const m_localToWorldTransform: usize = 0x60; // 
                 pub const m_timeStamp: usize = 0x80; // float32
             }
             // Parent: CNmEvent
@@ -3348,7 +3348,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod SkeletonAnimCapture_t__Camera_t {
-                pub const m_tmCamera: usize = 0x0; // CTransform
+                pub const m_tmCamera: usize = 0x0; // 
                 pub const m_flTime: usize = 0x20; // float32
             }
             // Parent: CUnaryUpdateNode
@@ -4111,7 +4111,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimationGraphVisualizerAxis {
-                pub const m_xWsTransform: usize = 0x40; // CTransform
+                pub const m_xWsTransform: usize = 0x40; // 
                 pub const m_flAxisSize: usize = 0x60; // float32
             }
             // Parent: CBaseConstraint
@@ -4753,7 +4753,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CAnimUpdateSharedData {
                 pub const m_nodes: usize = 0x10; // CUtlVector<CSmartPtr<CAnimUpdateNodeBase>>
-                pub const m_nodeIndexMap: usize = 0x28; // 
+                pub const m_nodeIndexMap: usize = 0x28; // CUtlHashtable<CAnimNodePath,int32>
                 pub const m_components: usize = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
                 pub const m_pParamListUpdater: usize = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
@@ -5287,7 +5287,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CNmTarget {
-                pub const m_transform: usize = 0x0; // CTransform
+                pub const m_transform: usize = 0x0; // 
                 pub const m_boneID: usize = 0x20; // CGlobalSymbol
                 pub const m_bIsBoneTarget: usize = 0x28; // bool
                 pub const m_bIsUsingBoneSpaceOffsets: usize = 0x29; // bool

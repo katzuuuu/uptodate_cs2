@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -86,7 +86,7 @@ pub mod cs2_dumper {
                 pub const m_bHasBloomParams: usize = 0x40; // bool
                 pub const m_bloomParams: usize = 0x44; // PostProcessingBloomParameters_t
                 pub const m_bHasVignetteParams: usize = 0xB4; // bool
-                pub const m_vignetteParams: usize = 0xB8; // PostProcessingVignetteParameters
+                pub const m_vignetteParams: usize = 0xB8; // PostProcessingVignetteParameters_t
                 pub const m_bHasLocalContrastParams: usize = 0xDC; // bool
                 pub const m_localConstrastParams: usize = 0xE0; // PostProcessingLocalContrastParameters_t
                 pub const m_nColorCorrectionVolumeDim: usize = 0xF4; // int32
@@ -167,13 +167,13 @@ pub mod cs2_dumper {
                 pub const m_intParams: usize = 0x10; // CUtlVector<MaterialParamInt_t>
                 pub const m_floatParams: usize = 0x28; // CUtlVector<MaterialParamFloat_t>
                 pub const m_vectorParams: usize = 0x40; // CUtlVector<MaterialParamVector_t>
-                pub const m_textureParams: usize = 0x58; // CUtlVector<MaterialParamTexture_t>
+                pub const m_textureParams: usize = 0x58; // CUtlVector<MaterialParamTexture
                 pub const m_dynamicParams: usize = 0x70; // CUtlVector<MaterialParamBuffer_t>
                 pub const m_dynamicTextureParams: usize = 0x88; // CUtlVector<MaterialParamBuffer_t>
                 pub const m_intAttributes: usize = 0xA0; // CUtlVector<MaterialParamInt_t>
                 pub const m_floatAttributes: usize = 0xB8; // CUtlVector<MaterialParamFloat_t>
                 pub const m_vectorAttributes: usize = 0xD0; // CUtlVector<MaterialParamVector_t>
-                pub const m_textureAttributes: usize = 0xE8; // CUtlVector<MaterialParamTexture_t>
+                pub const m_textureAttributes: usize = 0xE8; // CUtlVector<MaterialParamTexture
                 pub const m_stringAttributes: usize = 0x100; // CUtlVector<MaterialParamString_t>
                 pub const m_renderAttributesUsed: usize = 0x118; // CUtlVector<CUtlString>
             }

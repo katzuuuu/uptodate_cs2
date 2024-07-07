@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -777,7 +777,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleModelInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleModelType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x58; // int32
         }
@@ -4182,7 +4182,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderOmni2Light {
-            public const nint m_nLightType = 0x208; // ParticleOmni2LightTypeChoiceList_t
+            public const nint m_nLightType = 0x208; // ParticleOmni2LightTypeChoiceList
             public const nint m_vColorBlend = 0x210; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x868; // ParticleColorBlendType_t
             public const nint m_nBrightnessUnit = 0x86C; // ParticleLightUnitChoiceList_t

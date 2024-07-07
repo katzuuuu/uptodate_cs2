@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -337,7 +337,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CFeNamedJiggleBone {
             public const nint m_strParentBone = 0x0; // CUtlString
-            public const nint m_transform = 0x10; // CTransform
+            public const nint m_transform = 0x10; // 
             public const nint m_nJiggleParent = 0x30; // uint32
             public const nint m_jiggleBone = 0x34; // CFeJiggleBone
         }
@@ -624,7 +624,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FeFitMatrix_t {
-            public const nint bone = 0x0; // CTransform
+            public const nint bone = 0x0; // 
             public const nint vCenter = 0x20; // Vector
             public const nint nEnd = 0x2C; // uint16
             public const nint nNode = 0x2E; // uint16
@@ -789,7 +789,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FeBoxRigid_t {
-            public const nint tmFrame2 = 0x0; // CTransform
+            public const nint tmFrame2 = 0x0; // 
             public const nint nNode = 0x20; // uint16
             public const nint nCollisionMask = 0x22; // uint16
             public const nint vSize = 0x24; // Vector

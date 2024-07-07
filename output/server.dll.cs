@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -4436,7 +4436,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_OnCancelSequence = 0x608; // CEntityIOOutput
             public const nint m_OnCancelFailedSequence = 0x630; // CEntityIOOutput
             public const nint m_OnScriptEvent = 0x658; // CEntityIOOutput[8]
-            public const nint m_matOtherToMain = 0x7A0; // CTransform
+            public const nint m_matOtherToMain = 0x7A0; // 
             public const nint m_hInteractionMainEntity = 0x7C0; // CHandle<CBaseEntity>
             public const nint m_iPlayerDeathBehavior = 0x7C4; // int32
         }
@@ -6583,7 +6583,7 @@ namespace CS2Dumper.Schemas {
         // Parent: CBaseModelEntity
         // Fields count: 6
         public static class CFuncBrush {
-            public const nint m_iSolidity = 0x710; // 
+            public const nint m_iSolidity = 0x710; // BrushSolidities_e
             public const nint m_iDisabled = 0x714; // int32
             public const nint m_bSolidBsp = 0x718; // bool
             public const nint m_iszExcludedClass = 0x720; // CUtlSymbolLarge
@@ -9746,7 +9746,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_aimPunchTickFraction = 0xE74; // float32
             public const nint m_aimPunchCache = 0xE78; // CUtlVector<QAngle>
             public const nint m_bIsBuyMenuOpen = 0xE90; // bool
-            public const nint m_xLastHeadBoneTransform = 0x14D0; // CTransform
+            public const nint m_xLastHeadBoneTransform = 0x14D0; // 
             public const nint m_bLastHeadBoneTransformIsValid = 0x14F0; // bool
             public const nint m_lastLandTime = 0x14F4; // GameTime_t
             public const nint m_bOnGroundLastTick = 0x14F8; // bool
@@ -10531,7 +10531,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_name (CUtlStringToken)
         // NetworkVarNames: m_hierarchyAttachName (CUtlStringToken)
         public static class CGameSceneNode {
-            public const nint m_nodeToWorld = 0x10; // CTransform
+            public const nint m_nodeToWorld = 0x10; // 
             public const nint m_pOwner = 0x30; // CEntityInstance*
             public const nint m_pParent = 0x38; // CGameSceneNode*
             public const nint m_pChild = 0x40; // CGameSceneNode*

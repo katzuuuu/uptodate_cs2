@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -855,7 +855,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleModelType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -4260,7 +4260,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderOmni2Light {
-                pub const m_nLightType: usize = 0x208; // ParticleOmni2LightTypeChoiceList_t
+                pub const m_nLightType: usize = 0x208; // ParticleOmni2LightTypeChoiceList
                 pub const m_vColorBlend: usize = 0x210; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x868; // ParticleColorBlendType_t
                 pub const m_nBrightnessUnit: usize = 0x86C; // ParticleLightUnitChoiceList_t

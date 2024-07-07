@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #pragma once
 
@@ -4441,7 +4441,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OnCancelSequence = 0x608; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnCancelFailedSequence = 0x630; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnScriptEvent = 0x658; // CEntityIOOutput[8]
-                constexpr std::ptrdiff_t m_matOtherToMain = 0x7A0; // CTransform
+                constexpr std::ptrdiff_t m_matOtherToMain = 0x7A0; // 
                 constexpr std::ptrdiff_t m_hInteractionMainEntity = 0x7C0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_iPlayerDeathBehavior = 0x7C4; // int32
             }
@@ -6588,7 +6588,7 @@ namespace cs2_dumper {
             // Parent: CBaseModelEntity
             // Fields count: 6
             namespace CFuncBrush {
-                constexpr std::ptrdiff_t m_iSolidity = 0x710; // 
+                constexpr std::ptrdiff_t m_iSolidity = 0x710; // BrushSolidities_e
                 constexpr std::ptrdiff_t m_iDisabled = 0x714; // int32
                 constexpr std::ptrdiff_t m_bSolidBsp = 0x718; // bool
                 constexpr std::ptrdiff_t m_iszExcludedClass = 0x720; // CUtlSymbolLarge
@@ -9751,7 +9751,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_aimPunchTickFraction = 0xE74; // float32
                 constexpr std::ptrdiff_t m_aimPunchCache = 0xE78; // CUtlVector<QAngle>
                 constexpr std::ptrdiff_t m_bIsBuyMenuOpen = 0xE90; // bool
-                constexpr std::ptrdiff_t m_xLastHeadBoneTransform = 0x14D0; // CTransform
+                constexpr std::ptrdiff_t m_xLastHeadBoneTransform = 0x14D0; // 
                 constexpr std::ptrdiff_t m_bLastHeadBoneTransformIsValid = 0x14F0; // bool
                 constexpr std::ptrdiff_t m_lastLandTime = 0x14F4; // GameTime_t
                 constexpr std::ptrdiff_t m_bOnGroundLastTick = 0x14F8; // bool
@@ -10536,7 +10536,7 @@ namespace cs2_dumper {
             // NetworkVarNames: m_name (CUtlStringToken)
             // NetworkVarNames: m_hierarchyAttachName (CUtlStringToken)
             namespace CGameSceneNode {
-                constexpr std::ptrdiff_t m_nodeToWorld = 0x10; // CTransform
+                constexpr std::ptrdiff_t m_nodeToWorld = 0x10; // 
                 constexpr std::ptrdiff_t m_pOwner = 0x30; // CEntityInstance*
                 constexpr std::ptrdiff_t m_pParent = 0x38; // CGameSceneNode*
                 constexpr std::ptrdiff_t m_pChild = 0x40; // CGameSceneNode*

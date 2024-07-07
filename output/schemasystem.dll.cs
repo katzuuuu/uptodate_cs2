@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: schemasystem.dll
@@ -121,7 +121,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_matrix3x4a_t = 0xB0; // matrix3x4a_t
             public const nint m_Color = 0xE0; // Color
             public const nint m_Vector4D = 0xE4; // Vector4D
-            public const nint m_CTransform = 0x100; // CTransform
+            public const nint m_CTransform = 0x100; // 
             public const nint m_pKeyValues = 0x120; // KeyValues*
             public const nint m_CUtlBinaryBlock = 0x128; // CUtlBinaryBlock
             public const nint m_CUtlString = 0x140; // CUtlString

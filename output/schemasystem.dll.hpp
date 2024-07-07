@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #pragma once
 
@@ -126,7 +126,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_matrix3x4a_t = 0xB0; // matrix3x4a_t
                 constexpr std::ptrdiff_t m_Color = 0xE0; // Color
                 constexpr std::ptrdiff_t m_Vector4D = 0xE4; // Vector4D
-                constexpr std::ptrdiff_t m_CTransform = 0x100; // CTransform
+                constexpr std::ptrdiff_t m_CTransform = 0x100; // 
                 constexpr std::ptrdiff_t m_pKeyValues = 0x120; // KeyValues*
                 constexpr std::ptrdiff_t m_CUtlBinaryBlock = 0x128; // CUtlBinaryBlock
                 constexpr std::ptrdiff_t m_CUtlString = 0x140; // CUtlString

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #pragma once
 
@@ -782,7 +782,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleModelInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleModelType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }
@@ -4187,7 +4187,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderOmni2Light {
-                constexpr std::ptrdiff_t m_nLightType = 0x208; // ParticleOmni2LightTypeChoiceList_t
+                constexpr std::ptrdiff_t m_nLightType = 0x208; // ParticleOmni2LightTypeChoiceList
                 constexpr std::ptrdiff_t m_vColorBlend = 0x210; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x868; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_nBrightnessUnit = 0x86C; // ParticleLightUnitChoiceList_t

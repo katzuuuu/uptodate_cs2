@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #pragma once
 
@@ -1485,7 +1485,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bForceRecreateNextUpdate = 0xD00; // bool
                 constexpr std::ptrdiff_t m_bMoveViewToPlayerNextThink = 0xD01; // bool
                 constexpr std::ptrdiff_t m_bCheckCSSClasses = 0xD02; // bool
-                constexpr std::ptrdiff_t m_anchorDeltaTransform = 0xD10; // CTransform
+                constexpr std::ptrdiff_t m_anchorDeltaTransform = 0xD10; // 
                 constexpr std::ptrdiff_t m_pOffScreenIndicator = 0xEA8; // CPointOffScreenIndicatorUi*
                 constexpr std::ptrdiff_t m_bIgnoreInput = 0xED0; // bool
                 constexpr std::ptrdiff_t m_bLit = 0xED1; // bool
@@ -6378,7 +6378,7 @@ namespace cs2_dumper {
             // NetworkVarNames: m_name (CUtlStringToken)
             // NetworkVarNames: m_hierarchyAttachName (CUtlStringToken)
             namespace CGameSceneNode {
-                constexpr std::ptrdiff_t m_nodeToWorld = 0x10; // CTransform
+                constexpr std::ptrdiff_t m_nodeToWorld = 0x10; // 
                 constexpr std::ptrdiff_t m_pOwner = 0x30; // CEntityInstance*
                 constexpr std::ptrdiff_t m_pParent = 0x38; // CGameSceneNode*
                 constexpr std::ptrdiff_t m_pChild = 0x40; // CGameSceneNode*

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -4535,7 +4535,7 @@ pub mod cs2_dumper {
                 pub const m_OnCancelSequence: usize = 0x608; // CEntityIOOutput
                 pub const m_OnCancelFailedSequence: usize = 0x630; // CEntityIOOutput
                 pub const m_OnScriptEvent: usize = 0x658; // CEntityIOOutput[8]
-                pub const m_matOtherToMain: usize = 0x7A0; // CTransform
+                pub const m_matOtherToMain: usize = 0x7A0; // 
                 pub const m_hInteractionMainEntity: usize = 0x7C0; // CHandle<CBaseEntity>
                 pub const m_iPlayerDeathBehavior: usize = 0x7C4; // int32
             }
@@ -6682,7 +6682,7 @@ pub mod cs2_dumper {
             // Parent: CBaseModelEntity
             // Fields count: 6
             pub mod CFuncBrush {
-                pub const m_iSolidity: usize = 0x710; // 
+                pub const m_iSolidity: usize = 0x710; // BrushSolidities_e
                 pub const m_iDisabled: usize = 0x714; // int32
                 pub const m_bSolidBsp: usize = 0x718; // bool
                 pub const m_iszExcludedClass: usize = 0x720; // CUtlSymbolLarge
@@ -9845,7 +9845,7 @@ pub mod cs2_dumper {
                 pub const m_aimPunchTickFraction: usize = 0xE74; // float32
                 pub const m_aimPunchCache: usize = 0xE78; // CUtlVector<QAngle>
                 pub const m_bIsBuyMenuOpen: usize = 0xE90; // bool
-                pub const m_xLastHeadBoneTransform: usize = 0x14D0; // CTransform
+                pub const m_xLastHeadBoneTransform: usize = 0x14D0; // 
                 pub const m_bLastHeadBoneTransformIsValid: usize = 0x14F0; // bool
                 pub const m_lastLandTime: usize = 0x14F4; // GameTime_t
                 pub const m_bOnGroundLastTick: usize = 0x14F8; // bool
@@ -10630,7 +10630,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_name (CUtlStringToken)
             // NetworkVarNames: m_hierarchyAttachName (CUtlStringToken)
             pub mod CGameSceneNode {
-                pub const m_nodeToWorld: usize = 0x10; // CTransform
+                pub const m_nodeToWorld: usize = 0x10; // 
                 pub const m_pOwner: usize = 0x30; // CEntityInstance*
                 pub const m_pParent: usize = 0x38; // CGameSceneNode*
                 pub const m_pChild: usize = 0x40; // CGameSceneNode*

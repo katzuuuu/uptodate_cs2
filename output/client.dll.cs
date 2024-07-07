@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -1480,7 +1480,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bForceRecreateNextUpdate = 0xD00; // bool
             public const nint m_bMoveViewToPlayerNextThink = 0xD01; // bool
             public const nint m_bCheckCSSClasses = 0xD02; // bool
-            public const nint m_anchorDeltaTransform = 0xD10; // CTransform
+            public const nint m_anchorDeltaTransform = 0xD10; // 
             public const nint m_pOffScreenIndicator = 0xEA8; // CPointOffScreenIndicatorUi*
             public const nint m_bIgnoreInput = 0xED0; // bool
             public const nint m_bLit = 0xED1; // bool
@@ -6373,7 +6373,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_name (CUtlStringToken)
         // NetworkVarNames: m_hierarchyAttachName (CUtlStringToken)
         public static class CGameSceneNode {
-            public const nint m_nodeToWorld = 0x10; // CTransform
+            public const nint m_nodeToWorld = 0x10; // 
             public const nint m_pOwner = 0x30; // CEntityInstance*
             public const nint m_pParent = 0x38; // CGameSceneNode*
             public const nint m_pChild = 0x40; // CGameSceneNode*

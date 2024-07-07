@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1499,7 +1499,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vInfluenceRotations = 0x20; // Quaternion[3]
             public const nint m_vInfluenceOffsets = 0x50; // Vector[3]
             public const nint m_influenceWeights = 0x74; // float32[3]
-            public const nint m_bInfluenceRootTransform = 0x80; // 
+            public const nint m_bInfluenceRootTransform = 0x80; // bool[3]
             public const nint m_nInfluences = 0x83; // uint8
             public const nint m_bIgnoreRotation = 0x84; // bool
         }
@@ -1523,8 +1523,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_nBody1 = 0x2; // uint16
             public const nint m_nBody2 = 0x4; // uint16
             public const nint m_nFlags = 0x6; // uint16
-            public const nint m_Frame1 = 0x10; // CTransform
-            public const nint m_Frame2 = 0x30; // CTransform
+            public const nint m_Frame1 = 0x10; // 
+            public const nint m_Frame2 = 0x30; // 
             public const nint m_bEnableCollision = 0x50; // bool
             public const nint m_bEnableLinearLimit = 0x51; // bool
             public const nint m_LinearLimit = 0x54; // VPhysXRange_t
@@ -2087,7 +2087,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class SkeletonAnimCapture_t__Bone_t {
             public const nint m_Name = 0x0; // CUtlString
-            public const nint m_BindPose = 0x10; // CTransform
+            public const nint m_BindPose = 0x10; // 
             public const nint m_nParent = 0x30; // int32
         }
         // Parent: CAnimActionUpdater
@@ -2340,7 +2340,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class PermModelExtPart_t {
-            public const nint m_Transform = 0x0; // CTransform
+            public const nint m_Transform = 0x0; // 
             public const nint m_Name = 0x20; // CUtlString
             public const nint m_nParent = 0x28; // int32
             public const nint m_refModel = 0x30; // CStrongHandle<InfoForResourceTypeCModel>
@@ -2587,7 +2587,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_baseNameHash = 0xC; // uint32
             public const nint m_bHidden = 0x18; // bool
             public const nint m_description = 0x20; // CUtlString
-            public const nint m_physics = 0x28; // 
+            public const nint m_physics = 0x28; // CPhysSurfacePropertiesPhysics
             public const nint m_audioSounds = 0x48; // CPhysSurfacePropertiesSoundNames
             public const nint m_audioParams = 0xA0; // CPhysSurfacePropertiesAudio
         }
@@ -2717,7 +2717,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flJumpStartCycle = 0xBC; // float32
             public const nint m_flJumpEndCycle = 0xC0; // float32
             public const nint m_eCorrectionMethod = 0xC4; // JumpCorrectionMethod
-            public const nint m_bTranslationAxis = 0xC8; // 
+            public const nint m_bTranslationAxis = 0xC8; // bool[3]
             public const nint m_bScaleSpeed = 0xCB; // bool
         }
         // Parent: CNmBoolValueNode__CDefinition
@@ -3026,7 +3026,7 @@ namespace CS2Dumper.Schemas {
         public static class SkeletonAnimCapture_t__Frame_t {
             public const nint m_flTime = 0x0; // float32
             public const nint m_Stamp = 0x4; // SkeletonAnimCapture_t::FrameStamp_t
-            public const nint m_Transform = 0x20; // CTransform
+            public const nint m_Transform = 0x20; // 
             public const nint m_bTeleport = 0x40; // bool
             public const nint m_CompositeBones = 0x48; // CUtlVector<CTransform>
             public const nint m_SimStateBones = 0x60; // CUtlVector<CTransform>
@@ -3067,7 +3067,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nNumFrames = 0x18; // int32
             public const nint m_flAverageLinearVelocity = 0x1C; // float32
             public const nint m_flAverageAngularVelocityRadians = 0x20; // float32
-            public const nint m_totalDelta = 0x30; // CTransform
+            public const nint m_totalDelta = 0x30; // 
         }
         // Parent: None
         // Fields count: 1
@@ -3227,8 +3227,8 @@ namespace CS2Dumper.Schemas {
         public static class CAnimReplayFrame {
             public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
-            public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
-            public const nint m_localToWorldTransform = 0x60; // CTransform
+            public const nint m_startingLocalToWorldTransform = 0x40; // 
+            public const nint m_localToWorldTransform = 0x60; // 
             public const nint m_timeStamp = 0x80; // float32
         }
         // Parent: CNmEvent
@@ -3268,7 +3268,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class SkeletonAnimCapture_t__Camera_t {
-            public const nint m_tmCamera = 0x0; // CTransform
+            public const nint m_tmCamera = 0x0; // 
             public const nint m_flTime = 0x20; // float32
         }
         // Parent: CUnaryUpdateNode
@@ -4031,7 +4031,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimationGraphVisualizerAxis {
-            public const nint m_xWsTransform = 0x40; // CTransform
+            public const nint m_xWsTransform = 0x40; // 
             public const nint m_flAxisSize = 0x60; // float32
         }
         // Parent: CBaseConstraint
@@ -4673,7 +4673,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAnimUpdateSharedData {
             public const nint m_nodes = 0x10; // CUtlVector<CSmartPtr<CAnimUpdateNodeBase>>
-            public const nint m_nodeIndexMap = 0x28; // 
+            public const nint m_nodeIndexMap = 0x28; // CUtlHashtable<CAnimNodePath,int32>
             public const nint m_components = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
             public const nint m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
             public const nint m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
@@ -5207,7 +5207,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CNmTarget {
-            public const nint m_transform = 0x0; // CTransform
+            public const nint m_transform = 0x0; // 
             public const nint m_boneID = 0x20; // CGlobalSymbol
             public const nint m_bIsBoneTarget = 0x28; // bool
             public const nint m_bIsUsingBoneSpaceOffsets = 0x29; // bool

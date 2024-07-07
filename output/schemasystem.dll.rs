@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -126,7 +126,7 @@ pub mod cs2_dumper {
                 pub const m_matrix3x4a_t: usize = 0xB0; // matrix3x4a_t
                 pub const m_Color: usize = 0xE0; // Color
                 pub const m_Vector4D: usize = 0xE4; // Vector4D
-                pub const m_CTransform: usize = 0x100; // CTransform
+                pub const m_CTransform: usize = 0x100; // 
                 pub const m_pKeyValues: usize = 0x120; // KeyValues*
                 pub const m_CUtlBinaryBlock: usize = 0x128; // CUtlBinaryBlock
                 pub const m_CUtlString: usize = 0x140; // CUtlString

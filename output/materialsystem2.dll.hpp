@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #pragma once
 
@@ -83,7 +83,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bHasBloomParams = 0x40; // bool
                 constexpr std::ptrdiff_t m_bloomParams = 0x44; // PostProcessingBloomParameters_t
                 constexpr std::ptrdiff_t m_bHasVignetteParams = 0xB4; // bool
-                constexpr std::ptrdiff_t m_vignetteParams = 0xB8; // PostProcessingVignetteParameters
+                constexpr std::ptrdiff_t m_vignetteParams = 0xB8; // PostProcessingVignetteParameters_t
                 constexpr std::ptrdiff_t m_bHasLocalContrastParams = 0xDC; // bool
                 constexpr std::ptrdiff_t m_localConstrastParams = 0xE0; // PostProcessingLocalContrastParameters_t
                 constexpr std::ptrdiff_t m_nColorCorrectionVolumeDim = 0xF4; // int32
@@ -164,13 +164,13 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_intParams = 0x10; // CUtlVector<MaterialParamInt_t>
                 constexpr std::ptrdiff_t m_floatParams = 0x28; // CUtlVector<MaterialParamFloat_t>
                 constexpr std::ptrdiff_t m_vectorParams = 0x40; // CUtlVector<MaterialParamVector_t>
-                constexpr std::ptrdiff_t m_textureParams = 0x58; // CUtlVector<MaterialParamTexture_t>
+                constexpr std::ptrdiff_t m_textureParams = 0x58; // CUtlVector<MaterialParamTexture
                 constexpr std::ptrdiff_t m_dynamicParams = 0x70; // CUtlVector<MaterialParamBuffer_t>
                 constexpr std::ptrdiff_t m_dynamicTextureParams = 0x88; // CUtlVector<MaterialParamBuffer_t>
                 constexpr std::ptrdiff_t m_intAttributes = 0xA0; // CUtlVector<MaterialParamInt_t>
                 constexpr std::ptrdiff_t m_floatAttributes = 0xB8; // CUtlVector<MaterialParamFloat_t>
                 constexpr std::ptrdiff_t m_vectorAttributes = 0xD0; // CUtlVector<MaterialParamVector_t>
-                constexpr std::ptrdiff_t m_textureAttributes = 0xE8; // CUtlVector<MaterialParamTexture_t>
+                constexpr std::ptrdiff_t m_textureAttributes = 0xE8; // CUtlVector<MaterialParamTexture
                 constexpr std::ptrdiff_t m_stringAttributes = 0x100; // CUtlVector<MaterialParamString_t>
                 constexpr std::ptrdiff_t m_renderAttributesUsed = 0x118; // CUtlVector<CUtlString>
             }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1490,7 +1490,7 @@ pub mod cs2_dumper {
                 pub const m_bForceRecreateNextUpdate: usize = 0xD00; // bool
                 pub const m_bMoveViewToPlayerNextThink: usize = 0xD01; // bool
                 pub const m_bCheckCSSClasses: usize = 0xD02; // bool
-                pub const m_anchorDeltaTransform: usize = 0xD10; // CTransform
+                pub const m_anchorDeltaTransform: usize = 0xD10; // 
                 pub const m_pOffScreenIndicator: usize = 0xEA8; // CPointOffScreenIndicatorUi*
                 pub const m_bIgnoreInput: usize = 0xED0; // bool
                 pub const m_bLit: usize = 0xED1; // bool
@@ -6383,7 +6383,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_name (CUtlStringToken)
             // NetworkVarNames: m_hierarchyAttachName (CUtlStringToken)
             pub mod CGameSceneNode {
-                pub const m_nodeToWorld: usize = 0x10; // CTransform
+                pub const m_nodeToWorld: usize = 0x10; // 
                 pub const m_pOwner: usize = 0x30; // CEntityInstance*
                 pub const m_pParent: usize = 0x38; // CGameSceneNode*
                 pub const m_pChild: usize = 0x40; // CGameSceneNode*

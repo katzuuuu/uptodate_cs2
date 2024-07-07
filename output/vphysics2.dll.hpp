@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #pragma once
 
@@ -342,7 +342,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CFeNamedJiggleBone {
                 constexpr std::ptrdiff_t m_strParentBone = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_transform = 0x10; // CTransform
+                constexpr std::ptrdiff_t m_transform = 0x10; // 
                 constexpr std::ptrdiff_t m_nJiggleParent = 0x30; // uint32
                 constexpr std::ptrdiff_t m_jiggleBone = 0x34; // CFeJiggleBone
             }
@@ -629,7 +629,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace FeFitMatrix_t {
-                constexpr std::ptrdiff_t bone = 0x0; // CTransform
+                constexpr std::ptrdiff_t bone = 0x0; // 
                 constexpr std::ptrdiff_t vCenter = 0x20; // Vector
                 constexpr std::ptrdiff_t nEnd = 0x2C; // uint16
                 constexpr std::ptrdiff_t nNode = 0x2E; // uint16
@@ -794,7 +794,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace FeBoxRigid_t {
-                constexpr std::ptrdiff_t tmFrame2 = 0x0; // CTransform
+                constexpr std::ptrdiff_t tmFrame2 = 0x0; // 
                 constexpr std::ptrdiff_t nNode = 0x20; // uint16
                 constexpr std::ptrdiff_t nCollisionMask = 0x22; // uint16
                 constexpr std::ptrdiff_t vSize = 0x24; // Vector

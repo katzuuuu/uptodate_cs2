@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-07-03 19:09:10.461797100 UTC
+// 2024-07-07 13:51:06.129951400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -342,7 +342,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CFeNamedJiggleBone {
                 pub const m_strParentBone: usize = 0x0; // CUtlString
-                pub const m_transform: usize = 0x10; // CTransform
+                pub const m_transform: usize = 0x10; // 
                 pub const m_nJiggleParent: usize = 0x30; // uint32
                 pub const m_jiggleBone: usize = 0x34; // CFeJiggleBone
             }
@@ -629,7 +629,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FeFitMatrix_t {
-                pub const bone: usize = 0x0; // CTransform
+                pub const bone: usize = 0x0; // 
                 pub const vCenter: usize = 0x20; // Vector
                 pub const nEnd: usize = 0x2C; // uint16
                 pub const nNode: usize = 0x2E; // uint16
@@ -794,7 +794,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FeBoxRigid_t {
-                pub const tmFrame2: usize = 0x0; // CTransform
+                pub const tmFrame2: usize = 0x0; // 
                 pub const nNode: usize = 0x20; // uint16
                 pub const nCollisionMask: usize = 0x22; // uint16
                 pub const vSize: usize = 0x24; // Vector
